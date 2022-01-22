@@ -1,0 +1,117 @@
+.bk{
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  margin: 0px;
+  background-color:#FDCA40;
+  width:100%;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  overflow-x:hidden;
+	overflow-y:hidden;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  
+}
+
+.card{
+  width:22rem;
+  height: 12rem;
+  background-color:#F79824;
+  padding:2rem;
+  margin:2rem;
+  border-radius:32px;
+  box-shadow: rgba(17, 12, 46, 0.3) 0px 48px 100px 0px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 1.1rem;
+  text-align: center;
+  padding:1rem;
+  color:#31393C;
+  top: 0%;
+  margin-top: 2rem;
+ 
+}
+
+.quote{
+  font-size:1.1rem;
+  text-align: center;
+  color:#31393C;
+}
+
+.author{
+ font-size:0.9rem;
+ text-align: end;
+ padding:1rem;
+ color:#31393C;
+}
+
+.button{
+
+  font-size:0.8rem;
+  width:8rem;
+  padding:0.8rem;
+  border:none;
+  border-radius:2rem;
+  margin:0.5rem;
+  float:right;
+  background-color:#F79824;
+  color:#31393C;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  cursor:pointer;
+  transition-timing-function:ease-out;
+  transition-duration:0.1s;
+}
+
+.tweet{
+   float:left;
+}
+
+
+.button:active{
+  box-shadow: rgba(17, 12, 46, 0.4) 0px 48px 100px 0px;
+  background-color:#33A1FD;
+  transition-timing-function:ease-in;
+  transition-duration:0.1s;
+  transform: scale(0.9);
+
+}
+
+.button-warp{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.footer{
+  width:100%;
+  height: 5vh;
+  bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.icons{
+  width:24px;
+  height: 24px;
+}
+
+@media (max-width : 500px){
+  .card{
+    width:16rem;
+    height: 12rem;}
+}
